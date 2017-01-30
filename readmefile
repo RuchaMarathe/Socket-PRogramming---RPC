@@ -1,0 +1,16 @@
+Follow the below steps run the client and server
+* rpcgen -a -C firsttry.x has been executed
+
+1: The RPCGen created the  object files and the make files as well
+	
+	->execute make -f Makefile.firsttry
+
+For Server
+2: Change the directory on terminal to the location where files are stored
+3: Execute./firsttry_server to run the server
+
+For Client
+4: Change the directory on a new terminal to client directory 
+5: Execute ./firsttry_client localhost filename directory_of_the_server to run the client -arguments are the server ip/name, File name to be copied and the  directory
+e.g. ./firsttry_client localhost firsttry_client.c /home/palak/lab4/
+6: Verify the file has been copied from the server location (as passes ) to client location.
